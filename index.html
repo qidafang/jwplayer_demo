@@ -1,0 +1,24 @@
+<!DOCTYPE>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>use jw</title>
+
+	<script src="jwplayer/jwplayer.js"></script>
+	<script>jwplayer.key="bAoNHra71KE/mHvb0sirT4HeWLTAkpiYa1mVsA==";</script>
+</head>
+<body>
+	<div id="myElement">Loading the player...</div>
+	<script type="text/javascript">
+	var playerInstance = jwplayer("myElement");
+	playerInstance.setup({
+	    file: "http://img.zidafone.com/test.flv",
+	    image: "http://img.zidafone.com/test.jpg",
+	    width: 640,
+	    height: 360,
+	    title: 'Beautiful Woman',
+	    description: 'This is the most beautiful woman in the world, do you agree?'
+	});
+	</script>
+</body>
+</html>
